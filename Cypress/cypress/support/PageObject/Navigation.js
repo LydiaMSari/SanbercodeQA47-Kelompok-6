@@ -1,17 +1,17 @@
 // cypress/page/Navigation.js
-class Navigation {
+lass Navigation {
     visitHomepage() {
         cy.visit('https://magento.softwaretestingboard.com/');
     }
-
     visitAccount() {
         cy.visit('https://magento.softwaretestingboard.com/customer/account/');
     }
-
-    visitProduct() {
+    visitHoodie() {
         cy.visit('https://magento.softwaretestingboard.com/hero-hoodie.html');
     }
-
+    visitTshirt() {
+        cy.visit('https://magento.softwaretestingboard.com/radiant-tee.html');
+    }
     visitOrderHistory() {
         cy.visit('https://magento.softwaretestingboard.com/sales/order/history/');
     }
