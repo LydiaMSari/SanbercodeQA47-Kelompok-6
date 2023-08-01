@@ -38,7 +38,7 @@ describe('Product Test suite', () => {
     cy.get('.fotorama__fullscreen-icon').click();
   })
 
-  it('Verifikasi menunjukkan harga produk', () => {
+  it('Verifikasi menunjukkan judul, gambar, dan harga produk', () => {
     Navigation.visitProduct();
     cy.get(price).should('contain', '$54.00');
 
