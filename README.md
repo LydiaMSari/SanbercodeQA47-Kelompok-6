@@ -12,11 +12,11 @@ Nama Anggota :
 5. Vinna Pratiwi
 
 > Daftar modul pengujian :
-- [ ] Sign up & Update My Account
-- [ ] Log in & Log out
-- [ ] Select Product(s) and Add to cart
-- [ ] Shopping Cart Page (including update and delete)
-- [ ] Proceed to Checkout
+- [x] Sign up & Update My Account
+- [x] Log in & Log out
+- [x] Select Product(s) and Add to cart
+- [x] Shopping Cart Page (including update and delete)
+- [x] Proceed to Checkout
 
 > Pembagian Tugas :
 1. Sign up & Update My Account - Karis Fabriyanto 
