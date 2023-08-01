@@ -15,8 +15,10 @@ describe('Login Test Suite', () => {
         cy.get('#email').type(userData.validUser.email);
         cy.get('#pass').type(userData.validUser.password);
         cy.get('#send2').click();
-        cy.get('.logged-in').should('be.visible');
-
+        cy.wait(1000);
+        Navigation.visitAccount();
+        cy.get('.base').should('be.visible');
+        cy.wait(500)
     });
 
     it('Verifikasi tidak dapat login dengan email yang salah ', () => {
