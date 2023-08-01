@@ -1,5 +1,5 @@
 // cypress/page/Navigation.js
-lass Navigation {
+class Navigation {
     visitHomepage() {
         cy.visit('https://magento.softwaretestingboard.com/');
     }
@@ -39,6 +39,8 @@ lass Navigation {
     visitProductReview() {
         cy.visit('https://magento.softwaretestingboard.com/review/customer/');
     }
+
+
 }
 
 
