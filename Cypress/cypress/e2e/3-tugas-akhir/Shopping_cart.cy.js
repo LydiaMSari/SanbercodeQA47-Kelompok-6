@@ -158,7 +158,7 @@ describe("Shopping Cart Page", () => {
     cy.wait(1000);
   });
 
-  it("Verifikasi dapat menghapus produk dari keranjang", () => {
+  it("Verifikasi user dapat menghapus produk dari keranjang", () => {
     cy.wait(10000);
     cy.get('.showcart > .counter').should('be.visible');
     cy.get('.minicart-wrapper > .action').click();
