@@ -139,7 +139,7 @@ describe("Shopping Cart Page", () => {
     cy.wait(5000);
   });
 
-  it('Verifikasi tidak dapat menambahkan produk dengan qty 0 ke dalam keranjang', () => {
+  it('Verifikasi tidak dapat menambahkan produk dengan qty 0 ke dalam keranjang belanja', () => {
     cy.get("#search").type(productName).type("{enter}");
     cy.get(tshirt).click();
     cy.wait(1000);
